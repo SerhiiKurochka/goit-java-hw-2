@@ -1,5 +1,3 @@
-package src;
-
 public class NameEncoderDecoder {
     public String encode(String name){
         return "NOTFORYOU" + name
