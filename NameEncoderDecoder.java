@@ -13,12 +13,12 @@ public class NameEncoderDecoder {
 
     public String decode(String name){
         return name
-                .replace("NOTFORYOU","")
+                .replace("YESNOTFORYOU","")
                 .replace("1","e")
                 .replace("2","u")
                 .replace("3","i")
                 .replace("4","o")
                 .replace("5","a")
-                .replace("YESNOTFORYOU","");
+                .replace("NOTFORYOU","");
     }
 }
